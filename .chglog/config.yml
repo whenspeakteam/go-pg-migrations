@@ -2,7 +2,7 @@ style: github
 template: CHANGELOG.tpl.md
 info:
   title: CHANGELOG
-  repository_url: https://github.com/robinjoseph08/go-pg-migrations
+  repository_url: https://github.com/whenspeakteam/go-pg-migrations
 options:
   commit_groups:
     title_maps:

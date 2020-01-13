@@ -1,13 +1,13 @@
 // Package migrations provides a robust mechanism for registering, creating, and
-// running migrations using go-pg-pg.
+// running migrations using whenspeakteam-pg.
 package migrations
 
 import (
 	"errors"
 	"time"
 
-	"github.com/go-pg/pg/v9"
-	"github.com/go-pg/pg/v9/orm"
+	"github.com/whenspeakteam/pg/v9"
+	"github.com/whenspeakteam/pg/v9/orm"
 )
 
 // Errors that can be returned from Run.

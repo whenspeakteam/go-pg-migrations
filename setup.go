@@ -1,8 +1,8 @@
 package migrations
 
 import (
-	"github.com/go-pg/pg/v9"
-	"github.com/go-pg/pg/v9/orm"
+	"github.com/whenspeakteam/pg/v9"
+	"github.com/whenspeakteam/pg/v9/orm"
 )
 
 func ensureMigrationTables(db *pg.DB) error {
